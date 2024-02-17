@@ -1,0 +1,14 @@
+main{
+    background-color: whitesmoke;
+}
+#fname{
+    width: 400px;
+    height: 25px;
+    margin-left: 30px;
+}
+#register{
+    color: white;
+    background-color: green;
+    border-style:none;
+    padding: 10px;
+}

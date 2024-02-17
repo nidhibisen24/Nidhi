@@ -1,0 +1,126 @@
+main{
+    padding-left: 160px;
+    padding-top: 40px;
+    padding-right: 170px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.img-input{
+    width: 900px;
+    margin-top: 10px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid rgb(172, 169, 169);
+}
+.img1{
+    margin-left: 780px;
+}
+.header1{
+    border: 1px solid blue;
+    display: flex;
+    background-color: rgb(237, 237, 245);
+    height: 3.5rem;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    padding-left: 400px;
+    justify-content: space-evenly;
+}
+.text-contain{
+    padding-top: 13px;
+    padding-left: 15px;
+    align-items: center;
+    padding-bottom: 22px;
+}
+.credit-section{
+    border: 1px solid blue;
+    height: 450px;
+
+}
+.detail-contain{
+    margin-left: 30px;
+    margin-top: -10px;
+}
+#input{
+    width: 900px;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(172, 169, 169);
+}
+#monthField{
+     height: 40px;
+    border:  1px solid rgb(172, 169, 169);
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 90px;
+}
+.date-section{
+    display: flex;
+    margin-top: 10px;
+}
+.cvv{
+    margin-left: 50px;
+}
+#cvv{
+    height: 35px;
+    border:  1px solid rgb(172, 169, 169);
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 70px;
+}
+#not{
+    margin-left: 15px;
+    color:rgb(172, 169, 169) ;
+}
+.checkbox{
+    margin-top: -5px;
+}
+.pay-btn{
+    width: 900px;
+    margin-top: 20px;
+    height: 40px;
+    color: white;
+    background-color: rgb(33, 201, 33);
+    border: none;
+    font-size: large;
+}
+.online-section{
+    display: flex;
+    margin-top: 15px;
+    border:  1px solid rgb(172, 169, 169);
+    border-radius: 5px;
+    font-size: large;
+    height: 60px;
+    
+
+}
+.online-section1{
+    display: flex;
+    margin-top: -5px;
+    border:  1px solid rgb(172, 169, 169);
+    border-radius: 5px;
+    font-size: large;
+    height: 60px;
+    
+
+}
+.logo-section2{
+    align-items: center;
+    padding-left: 530px;
+    margin-top: 22px;
+}
+.logo-section3{
+    align-items: center;
+    padding-left: 568px;
+    margin-top: 22px;
+}
+.divla{
+    height: 200px;
+}
+.text-contain1{
+    padding-top: 13px;
+    padding-left: 15px;
+    align-items: center;
+    padding-bottom: 22px;
+}

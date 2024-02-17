@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-6</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="credit.css">
+</head>
+
+<body>
+    <main>
+        <form action="submit">
+            <section class="credit-section">
+                <section class="header1">
+                    <div class="text-contain">
+                        <label for=""> <input type="radio" name="mygender" id="gender"><strong> <span
+                                    style="padding-left: 10px;">Credit
+                                    & Debit cards</span></strong> <br> <span
+                                style="color: rgb(119, 117, 117); padding-left: 35px;">
+                                Transaction fee may apply</span>
+                    </div>
+                    <div class="logo-section">
+                        <img src="visa8.jpeg" alt="" height="45px" width="100px" style=" border-radius:5px;">
+                        <img src="master-card.jpeg" alt="" height="45px" width="90px"
+                            style="border-radius: 5px; margin-left:13px">
+                        <img src="maestro1.png" alt="" height="45px"
+                            style="background-color: rgb(5, 2, 155); margin-left:13px; border-radius:5px;">
+                    </div>
+                    </label>
+                </section> <br><br>
+                <section class="detail-contain">
+                    <label for=""> <strong>Cardholder Name</strong></label><br>
+                    <input type="text" id="input"><br><br>
+                    <label for=""><strong>Card Number</strong></label><br>
+                    <div class="img-input" style=" display:flex">
+                        <p style="margin-left: 10px;"> <strong>4124</strong></p>
+                        <img class="img1" src="visa.png" alt="" height="45px" width="80px">
+                    </div><br>
+                    <div class="date-section">
+                        <div class="date">
+                            <label for=""><strong>End Date</strong><br>
+                                <select id="monthField" name="monthField" required>
+                                    <option value="" disabled selected>mm</option>
+                                    <option value="01">January</option>
+                                    <option value="02">February</option>
+                                    <option value="03">March</option>
+                                    <option value="04">April</option>
+                                    <option value="05">May</option>
+                                    <option value="06">June</option>
+                                    <option value="07">July</option>
+                                    <option value="08">August</option>
+                                    <option value="09">September</option>
+                                    <option value="10">October</option>
+                                    <option value="11">November</option>
+                                    <option value="12">December</option>
+                                </select>
+                                <select id="monthField" name="" required style="margin-left: 10px;">
+                                    <option value="" disabled selected>yyyy</option>
+                                    <option value="01">2001</option>
+                                    <option value="02">2002</option>
+                                    <option value="03">2003</option>
+                                    <option value="04">2004</option>
+                                    <option value="05">2005</option>
+                                    <option value="06">2006</option>
+                                    <option value="07">2007</option>
+                                    <option value="08">2009</option>
+                                    <option value="09">2010</option>
+                                    <option value="10">2012</option>
+                                    <option value="11">201</option>
+                                    <option value="12">2013</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="cvv">
+                            <label for=""> <strong>CVV</strong></label><br>
+                            <input type="text" maxlength="3" id="cvv">  <i  id="not" class="fa-solid  fa-circle-exclamation"></i>  3 digits
+                        </div>
+                    </div><br>
+                    <div class="checkbox">
+                        <input type="checkbox"> <strong> I have read and accept the terms of use , rules of flight & privacy
+                        policy. </strong>
+                    </div>
+                    <div class="pay-btn1">
+                        <button class="pay-btn">Pay Now >></button>
+                    </div>
+                </section>
+            </section>
+            <!-- Online section  -->
+            <section class="online-section">
+                <div class="text-contain1">
+                    <label for=""> <input type="radio" name="" id=""> <span style="padding-left: 10px;"><strong>Online banking &
+                            Direct debit</strong></span> <br> <span style="color: rgb(119, 117, 117); padding-left: 35px;">
+                            Free of charge</span>
+                </div>
+                <div class="logo-section2">
+                    <img src="sofort.png" alt="" height="20px" width="100px">
+                </div>
+                </label>
+            </section><br>
+            <!-- Pay with paypal -->
+            <section class="online-section1">
+                <div class="text-contain1">
+                    <label for=""> <input type="radio" name="" id=""> <span style="padding-left: 10px;"><strong> Pay with
+                            Paypal</span></strong> <br> <span style="color: rgb(119, 117, 117); padding-left: 35px;">
+                            Transaction fee may apply</span>
+                </div>
+                <div class="logo-section3">
+                    <img src="paypal.png" alt="" height="20px" width="100px">
+                </div>
+                </label>
+            </section>
+        </form>
+        <div class="divla">
+
+
+
+        </div>
+    </main>
+</body>
+
+</html>
